@@ -1,8 +1,17 @@
 const express = require('express');
 const connectDB = require('./config/db');
+const cors=require('cors')
 const path = require('path');
 
 const app = express();
+
+app.use(cors(
+  {
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    methods: ["POST", "GET"],
+    Credentials: true
+  }
+));
 
 // Connect Database
 connectDB();
