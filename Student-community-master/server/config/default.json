@@ -1,7 +1,7 @@
 {
   "mongoURI": "mongodb+srv://jkjaks5112001:Password@cluster0.j81uokw.mongodb.net/?retryWrites=true&w=majority",
   "jwtSecret": "secret",
-  "githubToken": "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",
+  "githubToken": "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",
   "googleClientID": "780728498832-ibhlqf45e7qeo5gcpt5tr6ja9qrae9cu.apps.googleusercontent.com",
   "googleSecret": "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"
 }
